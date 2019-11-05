@@ -1,0 +1,5 @@
+bigml
+kaggle
+matplotlib
+jupyter_contrib_nbextensions
+rise
