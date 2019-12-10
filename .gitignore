@@ -1,5 +1,6 @@
 csv/*
 docker/auth.env
 kaggle.json
-kaggle_score
-submission_sk
+kaggle_score_sickit.png
+kaggle_score.png
+submission_sk.csv

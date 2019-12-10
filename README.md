@@ -12,6 +12,13 @@ Predict the probability that someone will experience final distress in the next 
 [BigML](https://bigml.com/) account<br>
 [Kaggle](https://kaggle.com/) account
 
+### Identifiants
+Open the auth_sample.env file and follow the instructions
+
+After create it, check your BigML project id on [BigML.com]() and place it in the line :<br>
+ `api = BigML(project='project/5d9b851042129f40b70001b0')`
+
+
 ### Available scripts
 In the project <code>docker</code> directory, you can run:<br>
 <h3><code>docker-compose up</code></h3>
@@ -28,7 +35,8 @@ To access to he notebooks follow the instructions after:
 [2. Model XGBoost with Sickit-Learn]()
 
 ### Kaggle
-Private Score:  **0.86680**
+Private Score BigML:  **0.86187**<br>
+Private Score SKLearn:  **0.86680**
 
 
 

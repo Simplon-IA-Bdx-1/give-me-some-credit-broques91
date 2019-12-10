@@ -1,6 +1,8 @@
 bigml
 kaggle
+pandas
+numpy
+scipy
 matplotlib
+seaborn
 jupyter_contrib_nbextensions
-rise
-qgrid
