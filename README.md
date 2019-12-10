@@ -12,6 +12,8 @@ Predict the probability that someone will experience final distress in the next 
 [BigML](https://bigml.com/) account<br>
 [Kaggle](https://kaggle.com/) account
 
+To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. Then go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. This will trigger the download of kaggle.json, a file containing your API credentials. Place this file in the location ~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json, place it in your repo folder if you are on Unix based system the code will place it for you.
+
 ### Identifiants
 Open the auth_sample.env file and follow the instructions
 
@@ -30,9 +32,13 @@ To access to he notebooks follow the instructions after:
 
 ### Notebooks (Models)
 
-[1. Model Ensemble with BigML](https://github.com/broques91/givemesomecredit-td/blob/master/Give_Me_Some_Credit.ipynb)
+[1. Model Ensemble with BigML](https://github.com/Simplon-IA-Bdx-1/give-me-some-credit-broques91/blob/master/1_GiveMeSomeCredit_BigML.ipynb)
 
-[2. Model XGBoost with Sickit-Learn]()
+[2. Split with Sickit-Learn](https://github.com/Simplon-IA-Bdx-1/give-me-some-credit-broques91/blob/master/2GiveMeSomeCredit_Split_Sickit.ipynb)
+
+[3. Model XGBoost with Sickit-Learn](https://github.com/Simplon-IA-Bdx-1/give-me-some-credit-broques91/blob/master/3_GiveMeSomeCredit_Sklearn.ipynb)
+
+[4. Predict one input](https://github.com/Simplon-IA-Bdx-1/give-me-some-credit-broques91/blob/master/4_GiveMeSomeCredit_Predict_Input.ipynb)
 
 ### Kaggle
 Private Score BigML:  **0.86187**<br>
